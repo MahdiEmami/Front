@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>starbuzz coffee</title>
+    <meta charset="utf-8" name="description" content="Starbuzz coffeeshop menu,descover >
+    some of the best coffee in town">
+    <style>
+        body{
+          text-align: center
+        };
+    </style>
+    </head>
+    <body>
+    <h1>starbuzz coffee shop</h1>
+    <h2><em>House blend</em>,$1.49</h2>
+    <p>A smooth mild blend of coffee from mexico,Bolivia,Guatamia.</p>
+    <h2><em>Mocha coffee latte</em>,$2.35</h2>
+    <p>Espersso,steamed milk,chocolate syrup</p>
+    <h2><em>Cappuccino</em>,$1.89</h2>
+    <p>A mixture of espersso,steamed milk and foam</p>
+    <h2><em>Chai Tea</em>,$1.85</h2>
+    <p>A spicy drink made with black tea,spices,milk and honey</p>
+    </body>
+</html>

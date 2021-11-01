@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/d99d0661c4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outline button</title>
+    <style>
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 64px;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn i{
+    margin-right: 5px;
+}
+.green{
+    border-color: #04AA6D;
+  color: green;
+}
+.green:hover{
+    background-color: #04AA6D;
+  color: white;
+}
+.red{
+    border-color: #f44336;
+  color: red
+}
+.red:hover{
+  background: #f44336;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn green" onclick="window.alert('green')"><i class="fas fa-angle-left"></i>Green</button>
+        <button class="btn red" onclick="window.alert('red')"><i class="fas fa-angle-right"></i>Red</button>
+    </div>
+    
+</body>
+</html>

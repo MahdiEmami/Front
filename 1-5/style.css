@@ -1,0 +1,41 @@
+body{
+    background-color: var(--scolor);
+    --pcolor:#6750A4;
+    --scolor:#FFFFFF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 40px;
+    margin-top: 48px;
+    border-radius: 20px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.fill{
+    background-color: var(--pcolor);
+    color: #FFFFFF;
+    border: none;
+}
+.fill-ton{
+    background-color: var(--pcolor);
+    color:var(--scolor) ;
+    border: none;
+}
+.outlined{
+    border: 3px solid;
+    background: none;
+    color: var(--pcolor);
+}
+.text{
+    border: none;
+    background: none;
+    color: var(--pcolor);
+}

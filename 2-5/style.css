@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(236, 236, 236);
+    --pcolor:#6750A4;
+    --scolor:#FFFFFF;
+    --onsurface:#1C1B1F;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 40px;
+    margin-top: 48px;
+    border-radius: 20px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.fill{
+    background-color: var(--pcolor);
+    color: var(--scolor);
+    border: none;
+}
+.fill-ton{
+    background-color: #E8DEF8;
+    color:#1E192B ;
+    border: none;
+}
+.outlined{
+    border: 3px solid;
+    background: none;
+    border-color:rgb(121, 116, 126);
+    color: var(--pcolor);
+}
+.text{
+    border: none;
+    background: none;
+    color: var(--pcolor);
+}
+.fill:disabled{
+background-color:rgba(28, 27, 31,0.12);
+color: rgba(28, 27, 31,0.38);
+}
+.fill:hover{
+    background-color: rgb(65, 39, 124);
+    /*
+font color wasn't defined in MD 
+    */
+}
+.fill:focus{
+    background-color: rgb(65, 39, 124);
+     /*
+font color wasn't defined in MD 
+    */
+}
+.fill:active{
+     /*
+colors not defined in MD
+    */
+    background-color: rgb(99, 87, 126);
+}
+.fill-ton:hover{
+     /*
+colors not defined in MD
+    */
+    background-color: rgb(134, 113, 184);
+}
+.fill-ton:focus{
+     /*
+colors not defined in MD
+    */
+    background-color: rgb(134, 113, 184);
+}
+.fill-ton:active{
+     /*
+colors not defined in MD
+    */
+    background-color: rgb(134, 113, 184);
+}
+.fill-ton:disabled{
+    background-color: rgba(31, 30, 34,0.12);
+    color: rgba(31, 30, 34,0.38);;
+}
+.outlined:disabled{
+    border-color: rgba(28, 27, 31,0.12);
+    color: rgba(28, 27, 31,0.38);
+}
+.outlined:hover{
+    background-color: rgba(121, 116, 126,0.30);
+}
+.outlined:focus{
+    border-color: var(--pcolor);
+    color: var(--pcolor);
+    background-color: rgba(0,0,0,0.3);
+}
+.outlined:active{
+    border-color:#79747E;
+    color: var(--pcolor);
+}
+.text:disabled{
+    color: rgba(28, 27, 31,0.38);
+}
+.text:hover{
+    background-color: rgba(103, 80, 164,0.38);
+}
+.text:focus{
+    background-color: rgba(103, 80, 164,0.38);
+}
+.text:active{
+    color: var(--pcolor);
+    background-color: rgba(103, 80, 164,0.38);
+}

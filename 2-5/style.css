@@ -41,16 +41,17 @@ body{
     background: none;
     color: var(--pcolor);
 }
-.fill:disabled{
-background-color:rgba(28, 27, 31,0.12);
-color: rgba(28, 27, 31,0.38);
-}
+
 .fill:hover{
     background-color: rgb(65, 39, 124);
     /*
 font color wasn't defined in MD 
     */
 }
+.fill:disabled{
+    background-color:rgba(28, 27, 31,0.12);
+    color: rgba(28, 27, 31,0.38);
+    }
 .fill:focus{
     background-color: rgb(65, 39, 124);
      /*

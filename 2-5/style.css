@@ -99,7 +99,7 @@ colors not defined in MD
     background-color: rgba(0,0,0,0.3);
 }
 .outlined:active{
-    border-color:#79747E;
+    border-color:hsl(270, 4%, 47%);
     color: var(--pcolor);
 }
 .text:disabled{

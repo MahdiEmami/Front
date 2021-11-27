@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color: #dadada;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    background-color: #ececec;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 8px;
+    cursor: pointer;
+}
+.card__img{
+    width: 100%;
+}
+
+.card__body{
+    padding: 0 16px;
+    text-align: left;
+}
+.card_filled:hover{
+    background-color: rgba(28, 27, 31, 0.116);
+}
+.card_filled:focus{
+    background-color: rgba(28, 27, 31, 0.432);
+}
+
+.card_outline{
+background-color:rgba(255, 251, 254,0.3);
+border: 2px solid #79747E;
+outline: none;
+}
+.card_outline:hover{
+    background-color: #c7c7c7;
+}
+.card_outline:focus{
+    background-color: #a0a0a0;
+}

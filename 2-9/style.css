@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+:lang(en){
+    font-family:'Merriweather';
+    font-size:1rem;
+    direction: ltr;
+}
+.input-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 280px;
+    height: 48px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+}
+.helper{
+    display: inline-block;
+    vertical-align: top;
+}
+.outline-btn{
+    border: none;
+    height: 48px;
+    width: 280px;
+    outline: none;
+    background-color: inherit;
+}
+i{
+    size: 24px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.outline-btn[placeholder]{
+margin-left: 11px;
+}
+.input-container:hover,.input-container:active{
+    border-width: 3px;
+}
+.form__label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

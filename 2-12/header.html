@@ -1,0 +1,35 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>responsive navbar</title>
+       <link rel="stylesheet" href="theme.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+    <div class="header">
+        <div class="header__container">
+            <h1 class="h1">WORLD</h1>
+            <div id="header__links" class="header__links header_close">
+                <a href="../../user/login.php" class="header__a btn-outline sign">ورود / ثبت نام</a>
+                <a href="#" class="header__a btn-text">کاتالوگ</a>
+                <a href="#" class="header__a btn-text">قطار</a>
+                <a href="#" class="header__a btn-text">اتوبوس</a>
+                <a href="#" class="header__a btn-text ">هواپیما</a>
+                <a href="#" class="btn-text header__a">هتل ها</a>
+            </div>
+            <i id="bars" class="fa fa-bars header__bar "></i>
+        </div>
+    </div>
+    <script>
+        const bars= document.querySelector('.header__bar');
+    let isopen=document.querySelector('.header__links');
+    bars.addEventListener('click',()=>{
+    isopen.classList.toggle('header_close');
+}
+)
+    </script>
+   </body>
+   </html>
+      
